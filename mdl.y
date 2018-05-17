@@ -23,7 +23,7 @@
 %union{
   double val;
   char string[255];
-}
+ }
 
 %token COMMENT
 %token <val> DOUBLE
@@ -36,7 +36,7 @@
 %token <string> SHADING SHADING_TYPE SETKNOBS FOCAL DISPLAY WEB
 %token <string> CO
 %%
-/* Grammar rules */
+ /* Grammar rules */
 
 input:
 | input command
